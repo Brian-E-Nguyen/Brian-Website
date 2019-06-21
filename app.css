@@ -37,9 +37,14 @@
     text-align: center;
     border-top: 2px solid rgb(117, 117, 117);
     border-bottom: 2px solid rgb(117, 117, 117);
-    padding: 2%;
+    padding: 5%;
 }
 
 .resume-general {
     text-align: center;
+}
+
+.end-foot {
+    background: rgb(0, 40, 73);
+    padding: 5%;
 }
