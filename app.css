@@ -2,12 +2,25 @@
     text-align: center;
     font-size: 2rem;
     padding: 5%;
+    background-color: rgb(241, 241, 241);
 }
 
-#home-heading {
+#home-heading-1 {
     position: relative;
     min-height: 200px;
-    background: url(https://croatia.hr/sites/default/files/styles/image_full_width/public/2017-08/02_01_slide_nature.jpg?itok=ItAHmLlp) center;
+    background: url(img/nature.png) center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+#home-heading-2 {
+    position: relative;
+    min-height: 200px;
+    background: url(img/beach.jpg) center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,6 +31,7 @@
 
 #about-home-heading {
     text-align: center;
+    word-wrap: break-word;
     
 }
 
@@ -33,30 +47,59 @@
 .attribute {
     word-wrap: break-word;
     font-family: Lato;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.attribute img {
+    width: 500px;
 }
 
 .resume-header {
     text-align: center;
     text-transform: uppercase;
-    /* border-top: 2px solid rgb(117, 117, 117);
-    border-bottom: 2px solid rgb(117, 117, 117); */
-    padding: 3%;
-    
+}
+
+#about-general {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.light {
+    border: 1px solid white;
+}
+
+.gray {
+    border: 1px solid gray;
+    width: 100px;
+}
+
+.dark {
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .resume-general {
     text-align: center;
 }
 
-.end-foot {
-    background: rgb(0, 40, 73);
-    padding: 5%;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-}
 
-h1 {
+
+/* h1 {
     font-weight: 700;
     font-size: 5em;
+} */
+
+.end-footer {
+    background-color: rgb(0, 68, 100);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: white;
 }

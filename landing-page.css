@@ -1,5 +1,5 @@
 body {
-    background: url(https://lh3.googleusercontent.com/UtKnjtUG8uIZ8LDH7257tX0scxibYVqwSJvj1EvILoyuzJaYu9JfiQF1dj9nOTvdig9KE9s9nTGwfyiymtaYl2c_I-AQ4J6yrRmXt629HwZPjTRQFdryOVnZKrfTxpPLjS1Ikfvbpg=w2400);
+    background: url(img/sunset.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -22,6 +22,11 @@ html {
     font-family: Lato;
     color: white;
     font-size: 40px;
+}
+
+#light {
+    border: 1px solid white;
+    width: 600px;
 }
 
 .btn {
