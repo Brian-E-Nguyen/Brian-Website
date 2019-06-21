@@ -18,6 +18,7 @@
 
 #about-home-heading {
     text-align: center;
+    
 }
 
 .dark-overlay {
@@ -31,13 +32,16 @@
 
 .attribute {
     word-wrap: break-word;
+    font-family: Lato;
 }
 
 .resume-header {
     text-align: center;
-    border-top: 2px solid rgb(117, 117, 117);
-    border-bottom: 2px solid rgb(117, 117, 117);
-    padding: 5%;
+    text-transform: uppercase;
+    /* border-top: 2px solid rgb(117, 117, 117);
+    border-bottom: 2px solid rgb(117, 117, 117); */
+    padding: 3%;
+    
 }
 
 .resume-general {
@@ -47,4 +51,12 @@
 .end-foot {
     background: rgb(0, 40, 73);
     padding: 5%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
 }
