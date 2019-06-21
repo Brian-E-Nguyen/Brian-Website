@@ -1,0 +1,33 @@
+.index-page-content {
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url(https://lh3.googleusercontent.com/DusdYF8wysCrrg92OK4SB2bgEsr6trECZ7eEzNxa6iaD8nX-FLgjBPCEotYjCmIM3G2yFxRG2eLpqJTB8SEoxww6vkmM9BdTEjN7vAFkWWQW64hBdTPL7tjN7uT4DKeW391825tyzA=w2400);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+#about-home-heading {
+    text-align: center;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.attribute {
+    word-wrap: break-word;
+}
