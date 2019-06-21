@@ -7,7 +7,8 @@
 #home-heading {
     position: relative;
     min-height: 200px;
-    background: url(https://lh3.googleusercontent.com/DusdYF8wysCrrg92OK4SB2bgEsr6trECZ7eEzNxa6iaD8nX-FLgjBPCEotYjCmIM3G2yFxRG2eLpqJTB8SEoxww6vkmM9BdTEjN7vAFkWWQW64hBdTPL7tjN7uT4DKeW391825tyzA=w2400);
+    background: url(https://croatia.hr/sites/default/files/styles/image_full_width/public/2017-08/02_01_slide_nature.jpg?itok=ItAHmLlp) center;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
@@ -30,4 +31,15 @@
 
 .attribute {
     word-wrap: break-word;
+}
+
+.resume-header {
+    text-align: center;
+    border-top: 2px solid rgb(117, 117, 117);
+    border-bottom: 2px solid rgb(117, 117, 117);
+    padding: 2%;
+}
+
+.resume-general {
+    text-align: center;
 }
