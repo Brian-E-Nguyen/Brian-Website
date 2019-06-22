@@ -8,24 +8,23 @@
 #home-heading-1 {
     position: relative;
     min-height: 200px;
-    background: url(img/nature.png) center;
+    background: url(img/nature.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    padding: 4%;
 }
 
 #home-heading-2 {
     position: relative;
     min-height: 200px;
-    background: url(img/beach.jpg) center;
+    background: url(img/city.jpg);
+    background-position: center; 
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    text-align: center;
-    padding: 5%;
-    color: white;
 }
 
 #about-home-heading {
@@ -40,7 +39,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .attribute {
