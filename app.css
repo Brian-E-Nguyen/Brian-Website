@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 2rem;
     padding: 5%;
-    background-color: rgb(241, 241, 241);
+    
 }
 
 #home-heading-1 {
@@ -13,7 +13,6 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 5%;
     color: white;
 }
 
@@ -32,7 +31,7 @@
 #about-home-heading {
     text-align: center;
     word-wrap: break-word;
-    
+
 }
 
 .dark-overlay {
@@ -52,7 +51,7 @@
 }
 
 .attribute img {
-    width: 500px;
+    width: 70%;
 }
 
 .resume-header {
@@ -84,22 +83,43 @@
     text-align: center;
 }
 
-
-
-/* h1 {
-    font-weight: 700;
-    font-size: 5em;
-} */
-
 .end-footer {
     background-color: rgb(0, 68, 100);
     color: white;
 }
 
-footer a {
+footer a,
+footer a:hover {
     color: white;
 }
 
-a:hover {
+.header-photo {
+    width: 100%;
+    top: 38%;
+}
+
+
+#about-jumbo {
+    background: url(img/tc-light.JPG) no-repeat center;
+    background-size: cover;
+}
+
+#photography-jumbo {
+    background: url(img/self.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.jumbotron{
+    padding: 10rem 8rem;
+    text-align: center;
+    font-family: Lato;
     color: white;
+}
+
+.jumbotron .display-4{
+    font-weight: 800;
+    font-size: 80px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 10px rgba(0, 0, 0, 0.7);
 }
