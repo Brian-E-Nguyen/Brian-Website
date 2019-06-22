@@ -7,6 +7,5 @@ An online personal portfolio that I am creating for myself.
 - HTML
 - CSS
 - Bootstrap 4.3.1
-
-## Others
 - Fontawesome
+- Google fonts
