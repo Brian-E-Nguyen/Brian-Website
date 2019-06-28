@@ -16,7 +16,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Dosis&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/52b66b417c.js"></script>
+
+    <style type="text/css">
+        .pink {
+            border: 2px solid purple;
+            background: pink;
+        }
+    </style>
 
 
     <title>Photography</title>
@@ -61,212 +70,245 @@
     </nav>
 
 
+    <!-- JUMBOTRON -->
     <div class="jumbotron jumbotron-fluid" id="photography-jumbo">
         <h1 class="display-4">Photo&shy;graphy</h1>
     </div>
 
+    <!-- INTRO -->
     <div class="container">
-        <h1 class="display-4 text-center">Capturing Art Through The Lens</h3>
-            <p class="text-center" style="font-size: 1.5rem">Photography gives me a great opportunity to capture the
-                world around me, whether it will be people, cities,
-                or nature.</p>
-            <hr class="dark">
-            <h1 class="display-3">Utilities</h1>
+        <h1 class="display-4 text-center section-header">Capturing Art Through The Lens</h1>
+        <p class="text-center" style="font-size: 1.5rem;">Photography gives me a great opportunity to capture the
+            world around me, whether it will be people, cities,
+            or nature.</p>
+        <hr class="dark">
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1 class="display-4">Gear</h1>
-                    <h3><strong><i class="fas fa-camera"></i> Camera:</strong> Nikon D5300</h3>
-                    <h3><strong>Lens:</strong></h3>
-                    <ul>
-                        <li>
-                            <h4>AF-S NIKKOR 35mm 1.8G</i></h4>
-                        </li>
-                        <li>
-                            <h4>AF-S NIKKOR 50mm 1.8G </i></h4>
-                        </li>
-                        <li>
-                            <h4>AF-S NIKKOR 55-300mm 4.5 - 5.6G ED</h4>
-                        </li>
-                        <li>
-                            <h4>AF-P NIKKOR 18 - 55mm 3.5 - 5.6G</h4>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <h1 class="display-4">Software</h1>
-                    <h3><strong><i class="fab fa-adobe"></i> Adobe:</strong></h3>
-                    <ul>
-                        <li>
-                            <h4>Lightroom Classic</h4>
-                        </li>
-                        <li>
-                            <h4>Photoshop CC 2018 (limited)</h4>
-                        </li>
-                        <li>
-                            <h4>Premiere Pro CC 2018 (limited)</h4>
-                        </li>
-                    </ul>
-                </div>
+        <!-- Utilities -->
+        <h1 class="display-3 section-header">Utilities</h1>
+        <div class="row">
+
+            <!-- Camera -->
+            <div class="col-md-3">
+                <h1 class="sub-section-header">Camera</h1>
             </div>
-            <hr class="dark">
-    </div>
-
-    <!-- Photo Gallery -->
-    <section id="gallery">
-        <div class="container">
-            <h1 class="text-center display-3">Photo Gallery</h1>
-            <p class="text-center" style="font-size: 1.5rem">Some photos of recent events in my life</p>
-            <div class="row mb-4">
-                <div class="col-md-4">
-                    <a href="img/gallery/lily.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/lily.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/han-1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/han-1.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/ansley.JPG" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/ansley.JPG" class="img-fluid">
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="img/gallery/lily-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/lily-2.jpg" class="img-fluid">
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="img/gallery/tutor.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/tutor.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/lex.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/lex.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/andrew-sw.JPG" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/andrew-sw.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/flowers.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/flowers.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/gallery/epic-me.JPG" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/epic-me.JPG" class="img-fluid">
-                    </a>
-                </div>
+            <div class="col-md-3">
+                <h4 class="list-item">Nikon D5300</h4>
             </div>
+
+            <!-- Lenses -->
+            <div class="col-md-3">
+                <h1 class="sub-section-header">Lenses</h1>
+            </div>
+            <div class="col-md-3">
+                <!-- Begin list -->
+                <ul class="list-item">
+                    <li>
+                        <h4>AF-S NIKKOR 35mm 1.8G</i></h4>
+                    </li>
+                    <li>
+                        <h4>AF-S NIKKOR 50mm 1.8G </i></h4>
+                    </li>
+                    <li>
+                        <h4>AF-S NIKKOR 55-300mm 4.5 - 5.6G ED</h4>
+                    </li>
+                    <li>
+                        <h4>AF-P NIKKOR 18 - 55mm 3.5 - 5.6G</h4>
+                    </li>
+                    <!-- End list -->
+                </ul>
+            </div>
+
+            <!-- Software -->
+            <div class="col-md-3">
+                <h1 class="sub-section-header">Software</h1>
+            </div>
+            <div class="col-md-3">
+                <!-- Begin list -->
+                <ul class="list-item">
+                    <li>
+                        <h4>Adobe Lightroom Classic</h4>
+                    </li>
+                    <li>
+                        <h4>Adobe Premiere Pro CC 2018</h4>
+                    </li>
+                    <li>
+                        <h4>Adobe Photoshop CC 2018</h4>
+                    </li>
+                <!-- End list -->
+                </ul>
+            </div>
+
         </div>
-    </section>
 
-    <section class="gallery">
-        <div class="container">
-            <hr class="dark">
-            <h1 class="text-center display-3">Post-Processing Magic</h1>
-            <p class="text-center" style="font-size: 1.5rem">A showcase of my post-processing skills with Adobe
-                Lightroom</p>
-            <div class="row mb-4">
-                <div class="col-md-6">
-                    <a href="img/post/lex-pre.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/post/lex-pre.jpg" class="img-fluid">
-                    </a>
+
+
+        <!-- PHOTO GALLERY -->
+        <section id="gallery">
+            <div class="container">
+                <hr class="dark">
+
+                <!-- Header -->
+                <h1 class="text-center display-3 section-header">Photo Gallery</h1>
+
+                <!-- Description -->
+                <p class="text-center" style="font-size: 1.5rem; padding-bottom: 20px;">Some photos of recent events
+                    in my life</p>
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <a href="img/gallery/lily.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/lily.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/han-1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/han-1.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/ansley.JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/ansley.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="img/gallery/lily-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/lily-2.jpg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="img/gallery/tutor.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/tutor.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/lex.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/lex.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/andrew-sw.JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/andrew-sw.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/flowers.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/flowers.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="img/gallery/epic-me.JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/epic-me.JPG" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <a href="img/gallery/lex.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/gallery/lex.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="img/post/han-pre1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/post/han-pre1.jpg  " class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="img/post/han-post.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/post/han-post.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="img/post/lily-pre.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-                        <img src="img/post/lily-pre.jpg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6">
+            </div>
+        </section>
+
+        <!-- POST-PROCESSING MAGIC -->
+        <section class="gallery">
+            <div class="container">
+                <hr class="dark">
+
+                <!-- Header -->
+                <h1 class="text-center display-3 section-header">Post-Processing Magic</h1>
+
+                <!-- Description -->
+                <p class="text-center" style="font-size: 1.5rem; padding-bottom: 20px;">A showcase of my
+                    post-processing skills with Adobe
+                    Lightroom</p>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <a href="img/post/lex-pre.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/post/lex-pre.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="img/gallery/lex.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/gallery/lex.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="img/post/han-pre1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/post/han-pre1.jpg  " class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="img/post/han-post.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/post/han-post.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="img/post/lily-pre.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="img/post/lily-pre.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
                         <a href="img/post/lily-post.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                             <img src="img/post/lily-post.jpg" class="img-fluid">
                         </a>
                     </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="end-footer">
-        <div class="container-fluid padding">
-            <br>
-            <h4 class="text-center">Other Links</h4>
-            <div class="row text-center">
-                <div class="col-md-2">
+        <footer class="end-footer">
+            <div class="container-fluid padding">
+                <br>
+                <h4 class="text-center">Other Links</h4>
+                <div class="row text-center">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-4">
+                        <a href="index.html">Home</a>
+                        <br>
+                        <a href="about-me.html">About Me</a>
+                        <br>
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="resume.html">Resume</a>
+                        <br>
+                        <a href="photography.html">Photography</a>
+                        <br>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <hr class="light">
+                        <h5>&copy; brianenguyen.com </h5>
+                        <br>
+                    </div>
 
                 </div>
-                <div class="col-md-4">
-                    <a href="index.html">Home</a>
-                    <br>
-                    <a href="about-me.html">About Me</a>
-                    <br>
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="col-md-4">
-                    <a href="resume.html">Resume</a>
-                    <br>
-                    <a href="photography.html">Photography</a>
-                    <br>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="col-md-2">
-
-                </div>
-
-                <div class="col-md-12">
-                    <hr class="light">
-                    <h5>&copy; brianenguyen.com </h5>
-                    <br>
-                </div>
-
             </div>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        </script>
 
 </body>
 
