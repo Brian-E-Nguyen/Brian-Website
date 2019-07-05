@@ -34,3 +34,13 @@ html {
     text-align: center;
 }
 
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-family: Dosis;
+    font-weight: 900;
+    font-size: 25px;
+}
