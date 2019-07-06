@@ -11,7 +11,7 @@ html {
 #content {
     text-align: center;
     padding-top: 25%;
-    font-family: Lato;
+    font-family: Cardo;
     font-weight: 700;
     color: white;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
@@ -20,7 +20,7 @@ html {
 
 #description {
     text-align: center;
-    font-family: Lato;
+    font-family: Dosis;
     color: white;
     font-size: 40px;
 }
