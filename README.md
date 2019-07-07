@@ -27,6 +27,9 @@ Page used to detail my photography experience. Has three parts:
 - photo gallery with pictures from recent events of my life
 - "post-processing magic," a section that showcases my post-processing skills with before and after pictures
 
+### 6. Contact
+
+Page used to get in contact with me
 
 ## Resources Used
 
