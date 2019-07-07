@@ -7,13 +7,13 @@ p {
     text-align: center;
     font-size: 2rem;
     padding: 5%;
-    
+
 }
 
 #home-heading-1 {
     position: relative;
     min-height: 200px;
-    background: url(img/nature.png);
+    background: url(img/sunset2.JPG);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ p {
     position: relative;
     min-height: 200px;
     background: url(img/city.jpg);
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -91,9 +91,18 @@ p {
     color: white;
 }
 
-footer a,
-footer a:hover {
+footer a {
     color: white;
+}
+
+.footer-link {
+    color: white;
+}
+
+a.footer-link:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .header-photo {
@@ -110,7 +119,7 @@ footer a:hover {
 #photography-jumbo {
     background: url(img/self.jpg) no-repeat center;
     background-size: cover;
-    
+
 }
 
 #portfolio-jumbo {
@@ -118,18 +127,23 @@ footer a:hover {
     background-size: cover;
 }
 
-.jumbotron{
+#contact-jumbo {
+    background: url(img/leaves.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.jumbotron {
     padding: 10rem 8rem;
     text-align: center;
     font-family: Lato;
     color: white;
 }
 
-.jumbotron .display-4{
+.jumbotron .display-4 {
     font-weight: 800;
     box-sizing: border-box;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-                 0px 8px 10px rgba(0, 0, 0, 0.7);
+        0px 8px 10px rgba(0, 0, 0, 0.7);
 }
 
 .list-item {
@@ -149,14 +163,14 @@ footer a:hover {
 }
 
 
-@media screen and (min-width: 601px){
-    .jumbotron .display-4{
+@media screen and (min-width: 601px) {
+    .jumbotron .display-4 {
         font-size: 80px;
     }
 }
 
-@media screen and (max-width: 600px){
-    .jumbotron .display-4{
+@media screen and (max-width: 600px) {
+    .jumbotron .display-4 {
         font-size: 30px;
     }
 }
@@ -164,9 +178,28 @@ footer a:hover {
 .bg-dark {
     background-color: #000000 !important;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     font-family: Dosis;
     font-weight: 900;
     font-size: 25px;
+}
+
+.footer-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-icon:hover {
+    color: white;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form-subtext {
+    font-size: 1rem;
 }
