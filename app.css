@@ -3,13 +3,40 @@ p {
     font-size: 20px;
 }
 
-.index-page-content {
+
+
+/* ABOUT-ME */
+
+/* Jumbotron */
+#about-jumbo {
+    background: url(img/post/fireworks-post.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/* Quote */
+#quote {
     text-align: center;
     font-size: 2rem;
     padding: 5%;
-
+    font-family: Dosis;
+    background: rgb(238, 238, 238);
 }
 
+/* Section Headers */
+.section-header {
+    font-family: Cardo;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.sub-section-header {
+    font-family: Cardo;
+    font-weight: bold;
+}
+
+
+/* Home Headings */
 #home-heading-1 {
     position: relative;
     min-height: 200px;
@@ -32,12 +59,13 @@ p {
     background-repeat: no-repeat;
 }
 
-#about-home-heading {
-    text-align: center;
-    word-wrap: break-word;
-
+/* Text inside home-heading */
+.home-heading-text {
+    font-weight: 500; 
+    text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.7);
 }
 
+/* Makes the home-heading image darker */
 .dark-overlay {
     position: absolute;
     top: 0;
@@ -47,31 +75,29 @@ p {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.attribute {
-    font-family: Dosis;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
 
+/* Image to the side of the descriptions */
 .attribute img {
     width: 70%;
 }
 
+/* RESUME */
 .resume-header {
     text-align: center;
     text-transform: uppercase;
-    font-family: Dosis;
+    font-family: Cardo;
 }
 
-#about-general {
-    text-align: center;
-    font-size: 1.5rem;
+.description-header {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .light {
     border: 1px solid white;
 }
 
+/* used on resume page for border around headings */
 .gray {
     border: 1px solid gray;
     width: 100px;
@@ -83,39 +109,9 @@ p {
     margin-bottom: 10%;
 }
 
-.resume-general {
-    text-align: center;
-}
-
-.end-footer {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
-.footer-link {
-    color: white;
-}
-
-a.footer-link:hover {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.header-photo {
-    width: 100%;
-    top: 38%;
-}
 
 
-#about-jumbo {
-    background: url(img/post/fireworks-post.jpg) no-repeat center;
-    background-size: cover;
-}
+
 
 #photography-jumbo {
     background: url(img/self.jpg) no-repeat center;
@@ -152,16 +148,32 @@ a.footer-link:hover {
     font-size: 2rem;
 }
 
-.section-header {
-    font-family: Cardo;
-    font-weight: 700;
-    margin-bottom: 3%;
+/* FOOTER */
+
+.end-footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
-.sub-section-header {
-    font-family: Cardo;
+footer a {
+    color: white;
+}
+
+.footer-link {
+    color: white;
+}
+
+a.footer-link:hover {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
 }
+
+.header-photo {
+    width: 100%;
+    top: 38%;
+}
+
 
 
 @media screen and (min-width: 601px) {
