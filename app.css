@@ -9,7 +9,7 @@ p {
 
 /* Jumbotron */
 #about-jumbo {
-    background: url(img/post/fireworks-post.jpg) no-repeat center;
+    background: url(img/self.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@ p {
 #home-heading-2 {
     position: relative;
     min-height: 200px;
-    background: url(img/city.jpg);
+    background: url(img/dashboard.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -86,6 +86,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     font-family: Cardo;
+
 }
 
 .description-header {
@@ -109,12 +110,8 @@ p {
     margin-bottom: 10%;
 }
 
-
-
-
-
 #photography-jumbo {
-    background: url(img/self.jpg) no-repeat center;
+    background: url(img/gallery/me-fireworks.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -130,17 +127,19 @@ p {
 }
 
 .jumbotron {
-    padding: 10rem 8rem;
-    text-align: center;
+    padding: 20rem 10rem;
     font-family: Lato;
     color: white;
+    background-size: cover;
+    background-repeat: no-repeat
 }
 
-.jumbotron .display-4 {
-    font-weight: 800;
-    box-sizing: border-box;
+.jumbo-text {
+    font-weight: 400;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
         0px 8px 10px rgba(0, 0, 0, 0.7);
+    font-size: 7.5vw;
+    width: 100%;
 }
 
 .list-item {
@@ -178,13 +177,13 @@ a.footer-link:hover {
 
 @media screen and (min-width: 601px) {
     .jumbotron .display-4 {
-        font-size: 80px;
+        font-size: 6rem;
     }
 }
 
 @media screen and (max-width: 600px) {
     .jumbotron .display-4 {
-        font-size: 30px;
+        font-size: 2.5rem;
     }
 }
 
@@ -194,8 +193,8 @@ a.footer-link:hover {
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .5);
-    font-family: Dosis;
-    font-weight: 900;
+    /* font-family: Dosis; */
+    font-weight: 100;
     font-size: 25px;
 }
 
