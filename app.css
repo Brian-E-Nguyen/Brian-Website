@@ -98,12 +98,6 @@ p {
     border: 1px solid white;
 }
 
-/* used on resume page for border around headings */
-.gray {
-    border: 1px solid gray;
-    width: 100px;
-}
-
 .dark {
     border: 1px solid black;
     margin-top: 10%;
