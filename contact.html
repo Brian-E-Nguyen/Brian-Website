@@ -76,30 +76,39 @@
         </div>
 
         <!-- BEGIN FORM -->
-        <form>
+        <form action="contact-form.php" method="POST">
+
+            <!-- Name -->
             <p class="form-title">Full name *</p>
             <p class="form-subtext">I would like to know who I am speaking with</p>
             <div class="row pb-4">
+
+                <!-- First name -->
                 <div class="col">
                     <input type="text" class="form-control" id="first-name" required>
                     <label for="first-name">First Name</label>
                 </div>
+
+                <!-- Last name -->
                 <div class="col">
                     <input type="text" class="form-control" id="last-name" required>
                     <label for="last-name">Last Name</label>
                 </div>
             </div>
+
+            <!-- Email -->
             <div class="form-group pb-4">
                 <label for="exampleInputEmail1">
                     <p class="form-title">Email Address *</p>
                 </label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             </div>
+
+            <!-- Message -->
             <div class="form-group pb-4">
                 <label for="exampleFormControlTextarea1">
                     <p class="form-title">Message *</p>
                 </label>
-                <p class="form-subtext">Send me something awesome!</p>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
             </div>
             <button class="btn btn-lg btn-danger p-2 p-md-3 mb-4">Submit</button>
