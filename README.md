@@ -35,7 +35,6 @@ Page used to get in contact with me
 
 - HTML
 - CSS
-- JavaScript
 - Bootstrap 4.3.1
 - Fontawesome
 - Google fonts
