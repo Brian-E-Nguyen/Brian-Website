@@ -91,7 +91,7 @@ p {
 
 .resume-date {
     font-weight: bold;
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .light {
