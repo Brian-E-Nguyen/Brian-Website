@@ -85,13 +85,13 @@ p {
 .resume-header {
     text-align: left;
     text-transform: uppercase;
-    font-family: Cardo;
-
+    font-family: Calibri;
+    color: #2B579A;
 }
 
-.description-header {
-    text-decoration: underline;
+.resume-date {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .light {
