@@ -1,9 +1,7 @@
 p {
-    font-family: Dosis;
+    font-family: Calibri;
     font-size: 20px;
 }
-
-
 
 /* ABOUT-ME */
 
@@ -83,15 +81,15 @@ p {
 
 /* RESUME */
 .resume-header {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    font-family: Cardo;
-
+    font-family: Calibri;
+    color: #2B579A;
 }
 
-.description-header {
-    text-decoration: underline;
+.resume-date {
     font-weight: bold;
+    font-style: italic;
 }
 
 .light {
